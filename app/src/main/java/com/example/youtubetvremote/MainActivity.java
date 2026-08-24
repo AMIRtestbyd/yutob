@@ -113,7 +113,7 @@ public class MainActivity extends Activity {
         String js = "javascript:(function(){"
                 + "if(window.__ytTvV2){window.__ytTvRefresh&&window.__ytTvRefresh();return;}"
                 + "window.__ytTvV2=true;"
-                + "var css=document.createElement('style');css.textContent='""
+                + "var css=document.createElement('style');css.textContent='"
                 + ":focus{outline:0!important} .yt-tv-focus{outline:4px solid #fff!important;outline-offset:3px!important;box-shadow:0 0 0 2px rgba(255,0,0,.65)!important}"
                 + "';document.head&&document.head.appendChild(css);"
                 + "function visible(e){if(!e||e===document.body)return false;var r=e.getBoundingClientRect(),s=getComputedStyle(e);return r.width>4&&r.height>4&&r.bottom>0&&r.right>0&&r.top<innerHeight&&r.left<innerWidth&&s.display!=='none'&&s.visibility!=='hidden'&&s.opacity!=='0'&&e.offsetParent!==null;}"
